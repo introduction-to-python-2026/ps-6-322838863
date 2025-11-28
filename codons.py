@@ -11,7 +11,7 @@ def create_codon_dict(file_path):
           continue
 
         key = cells[0]
-        value = cells[3]
+        value = cells[2]
         codon_dict[key] = value
     return codon_dict
 
